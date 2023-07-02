@@ -2,7 +2,8 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    
+    text-decoration: none;
+
 }
 
 body {
@@ -28,7 +29,7 @@ body {
 
 
 
-h3.verh {
+.head1 {
     color: #000;
     font-size: 24px;
     font-style: normal;
@@ -62,12 +63,65 @@ h3.verh {
     display: grid;
     gap: 30px;
     justify-items: center;
-
 }
+
+.blok_head4 {
+    color: #000;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.blok_text4 {
+    color: #666;
+    text-align: center;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+}
+
 .niz {
     background: #FFF;
     box-shadow: 15px 25px 60px -5px rgba(0, 0, 0, 0.10);
     display: grid;
     gap: 30px;
-    justify-items: left;
+    justify-items: center;
+}
+
+.head5 {
+    color: #000;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.text5 {
+    color: #AAA;
+    text-align: center;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+}
+
+.button {
+    width: 150px;
+    height: 50px;
+    flex-shrink: 0;
+    color: #FFF;
+    text-align: center;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+
+
+    border-radius: 50px;
+    background: #F25822;
+    box-shadow: 4px 4px 8px 0px rgba(242, 88, 34, 0.20);
+    color: #FFF;
+    font-size: 12px;
 }
